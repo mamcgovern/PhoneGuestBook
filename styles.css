@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css?family=Allura|Playfair%20Display:400');
+
+:root {
+  --text: #000000;
+  --background: #ede9e3;
+  --primary: #c2cec0;
+  --secondary: #6b705c;
+  --accent: #e7c9c1;
+}
+
+html { font-size: 100%; } /* 16px */
+
+body {
+  font-family: 'Playfair Display', serif;
+  font-weight: 400;
+  color: var(--text);
+  background-color: var(--background);
+}
+
+h1, h2, h3, h4, h5 {
+  font-family: 'Allura', cursive;
+  font-weight: 400;
+}
+
+h1 { font-size: 4.210rem; }
+h2 { font-size: 3.158rem; }
+h3 { font-size: 2.369rem; }
+h4 { font-size: 1.777rem; }
+h5 { font-size: 1.333rem; }
+small { font-size: 0.750rem; }
